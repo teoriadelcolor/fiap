@@ -7,7 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #1f2937;
 
-  background-image: url('fondo.jpg');  /* 👈 aquí */
+  background-image: url('Fondo.jpg');  /* 👈 aquí */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
