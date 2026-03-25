@@ -91,7 +91,7 @@ body > * {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   transition: all 0.2s ease;
   color: inherit;
-  text-align: left;
+  text-align: center;
 }
 
 .card:hover {
