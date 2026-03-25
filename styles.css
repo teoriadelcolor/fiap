@@ -27,7 +27,7 @@ body::before {
 
 @media (max-width: 600px) {
   .hero h1::after {
-    content: "FIAP Cloud Collections Service";
+    content: "FIAP";
   }
 
   .hero h1 {
