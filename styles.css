@@ -27,8 +27,8 @@ body::before {
 
 @media (max-width: 600px) {
   .hero p {
-    font-size: 14px:
-    white-space: nowarp;
+    font-size: 14px;
+    white-space: nowrap;
   }
 }
 
