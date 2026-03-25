@@ -27,11 +27,11 @@ body::before {
 
 @media (max-width: 600px) {
   .hero h1::after {
-    content: "FIAP Cloud Service";
+    content: "FIAP Cloud Collections Service";
   }
 
   .hero h1 {
-    font-size: 22px;
+    font-size: 12px;
     text-indent: -9999px;
     position: relative;
   }
