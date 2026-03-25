@@ -26,16 +26,21 @@ body::before {
 }
 
 @media (max-width: 600px) {
-  .hero h1 {
-    font-size: 20px;      /* 👈 más pequeño */
-    padding: 0 10px;      /* 👈 evita que se corte */
-    white-space: normal;  /* 👈 permite salto de línea */
-    line-height: 1.2;
+  .hero h1::after {
+    content: "FIAP Cloud Service";
   }
 
-  .hero p {
-    font-size: 14px;
-    padding: 0 15px;
+  .hero h1 {
+    font-size: 22px;
+    text-indent: -9999px;
+    position: relative;
+  }
+
+  .hero h1::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-indent: 0;
   }
 }
 
