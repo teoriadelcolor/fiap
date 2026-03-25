@@ -9,7 +9,7 @@ body {
 
   background-image: url('Fondo.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -27,8 +27,15 @@ body::before {
 
 @media (max-width: 600px) {
   .hero h1 {
-    font-size: clamp(20px, 5vw, 28px);
-    white-space: nowrap;
+    font-size: 20px;      /* 👈 más pequeño */
+    padding: 0 10px;      /* 👈 evita que se corte */
+    white-space: normal;  /* 👈 permite salto de línea */
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 14px;
+    padding: 0 15px;
   }
 }
 
