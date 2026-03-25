@@ -74,6 +74,6 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.85); /* capa blanca suave */
+  background: rgba(255, 255, 255, 0.35); /* capa blanca suave */
   z-index: 0;
 }
