@@ -26,9 +26,11 @@ body::before {
 }
 
 @media (max-width: 600px) {
-  .hero h1::after {
-    content: "FIAP";
+  .hero p {
+    font-size: 14px:
+    white-space: nowarp;
   }
+}
 
   .hero h1 {
     font-size: 12px;
