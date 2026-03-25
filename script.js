@@ -14,8 +14,8 @@
 </head>
 <body>
 <p class="p1"><span class="s1">const url = 'https://fiapnas.synology.me:5000/webapi/';</span></p>
-<p class="p1"><span class="s1">const username = ‘FIAP_JESUS; // Reemplaza con tu nombre de usuario</span></p>
-<p class="p1"><span class="s1">const password = ‘Fj2025@@; // Reemplaza con tu contraseña</span></p>
+<p class="p1"><span class="s1">const username = ‘‘; // Reemplaza con tu nombre de usuario</span></p>
+<p class="p1"><span class="s1">const password = ‘‘; // Reemplaza con tu contraseña</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">async function authenticate() {</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const response = await fetch(`${url}auth.cgi?api=SYNO.API.Auth&amp;method=login&amp;version=2&amp;username=${username}&amp;password=${password}`);</span></p>
